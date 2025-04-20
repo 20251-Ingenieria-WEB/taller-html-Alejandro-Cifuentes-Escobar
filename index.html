@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- hacemos el sitio responsivo -->
+  <title>Buscador de Rick and Morty</title>                                 <!-- Titulo de la pagina en la pestaña de arriba -->
+  <link rel="stylesheet" href="styles.css" />                               <!-- Enlazamos con el archivo CSS -->
+</head>
+<body>
+  <div class="container">                                                   <!-- aplicamos la clase container para efectos visuales -->
+    <h1>Rick and Morty Explorer</h1>                                        <!-- Titulo -->            
+    <input type="text" id="searchInput" placeholder="Buscar personaje..." /><!-- Campo de texto para buscar personajes -->
+    <button onclick="searchCharacter()">Buscar</button>                      <!-- Boton para buscar-->           
+    <div id="characterList" class="card-list"></div>
+  </div>
+  <script src="script.js"></script>                                         <!-- Enlazamos con el archivo JS para la logica-->
+</body>
+</html>
